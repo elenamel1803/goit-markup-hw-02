@@ -26,6 +26,7 @@ body {
     font-family: 'Roboto',
     sans-serif;
     color: var(--main-text-color);
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
@@ -57,7 +58,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .header-logo-left{
     color: var(--logo-left-color);
@@ -73,6 +74,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .header-link{
     font-weight: 500;
@@ -80,6 +82,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
+    text-decoration: none;
 }
 
 /* -------------------HERO------------------- */
@@ -119,14 +122,12 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .benefits-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 
@@ -136,7 +137,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* ----------------TEAM---------------- */
@@ -148,7 +148,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .team-item{
     background: var(--main-backgroun-color);
@@ -162,14 +161,12 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .team-item-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 
@@ -181,7 +178,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .footer-logo-left{
     color: var(--logo-left-color);
@@ -196,21 +193,22 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .footer-link-address{
     color: var(--backgroun-text-color);
+    text-decoration: none;
 }
 
 
 /* ----------------PORTFOLIO---------------- */
 .filters-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
-    letter-spacing: 0.03em;
     background: #F5F4FA;
     border-radius: 4px;    
 }
@@ -237,6 +235,5 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
