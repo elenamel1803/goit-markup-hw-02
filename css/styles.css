@@ -15,8 +15,7 @@
     --main-btn-color: #2196F3;
     --second-btn-color: #188CE8;
     --accent-color: #2196F3;
-    --logo-left-color: #2196F3;
-    --logo-right-color: #000000;
+    --logo-color-studio: #000000;
     --main-backgroun-color: #FFFFFF;
     --second-backgroun-color: #2F303A;
     --third-backgroun-color: #F5F4FA;
@@ -25,10 +24,9 @@
 }
 
 body {
-    font-family: 'Roboto',
-    sans-serif;
-    color: var(--main-text-color);
-    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--main-text-color);    
 }
 button {
     cursor: pointer;
@@ -61,31 +59,28 @@ button {
     background: var(--main-backgroun-color);
 }
 .header-logo {
-    font-family: 'Raleway',
-    sans-serif;
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
+    color: var(--accent-color);
 }
-.header-logo-left{
-    color: var(--logo-left-color);
-}
-.header-logo-right{
-    color: var(--logo-right-color);
+.header-logo-studio{
+    color: var(--logo-color-studio);
 }
 .header-navigation-link.current{
     color: var(--accent-color)
 }
 .header-navigation-link {
     font-weight: 500;
-    font-size: 14px;
+    
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .header-link{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
@@ -125,13 +120,13 @@ button {
 
 /* ----------------BENEFITS---------------- */
 .benefits-title {
-    font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .benefits-text{
-    font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 
@@ -140,6 +135,7 @@ button {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* ----------------TEAM---------------- */
@@ -150,6 +146,7 @@ button {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-item{
     background: var(--main-backgroun-color);
@@ -163,12 +160,14 @@ button {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-item-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 
@@ -180,12 +179,11 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
+    color: var(--accent-color);
 }
-.footer-logo-left{
-    color: var(--logo-left-color);
-}
-.footer-logo-right{
+.footer-logo-studio{
     color: var(--backgroun-text-color);
 }
 .footer-address{
@@ -193,8 +191,8 @@ button {
 }
 .footer-link{
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--footer-link)
 }
 .footer-link-address{
@@ -210,6 +208,7 @@ button {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    letter-spacing: 0.03em;
     background: var(--third-backgroun-color);
     border-radius: 4px;    
 }
@@ -224,7 +223,7 @@ button {
 .projects-item{
     background: var(--main-backgroun-color);
 }   
-.projects-title {;
+.projects-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -232,5 +231,6 @@ button {
 .projects-text{
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
