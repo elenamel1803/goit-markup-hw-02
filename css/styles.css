@@ -30,6 +30,7 @@ body {
 }
 button {
     cursor: pointer;
+    border: 0;
 }
 .list{
     list-style: none;
@@ -75,7 +76,6 @@ button {
 }
 .header-navigation-link {
     font-weight: 500;
-    
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -176,6 +176,7 @@ button {
     background: var(--second-backgroun-color);
 }
 .footer-logo{
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -190,7 +191,6 @@ button {
     font-style: normal;
 }
 .footer-link{
-    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-link)
@@ -218,6 +218,10 @@ button {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--backgroun-text-color);
+}
+.filters-first-btn {
+    background: var(--main-btn-color);
     color: var(--backgroun-text-color);
 }
 .projects-item{
